@@ -14,6 +14,7 @@ public class AccessData {
     private void privateMethod(){
         System.out.println("privateMethod 호출 "+privateField);
     }
+
     public void innerAccess(){
         System.out.println("내부호출");
         publicField=100;
